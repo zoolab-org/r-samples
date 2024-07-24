@@ -1,0 +1,532 @@
+z = list(a)
+z = list(c(1, 2, 3))
+z
+a = c(1,2,3)
+b = c(4,5,6)
+list(a, b)
+b = c(4,5,6, 7)
+list(a, b)
+stack(list(a, b))
+stack(list(a=a, b=b))
+stack(list(a=a))
+stack(list(a))
+stack(list(a=a))
+stack(list(a=a), list(b=b))
+help(stack)
+help(list)
+list(a=a)
+list(a=a)
+list(a=a, list(b=b))
+z = list9)
+z = list()
+z
+z[0] = a=a
+z
+z[1] = a=a
+list(a=a)
+list[1]
+list[[1]]
+z = list(a=a)
+z
+z[1]
+z$a
+z$b = b
+z
+stack(z)
+z = list()
+z[1] = a
+a
+z[[1]] = a
+z[[2]] = b
+z
+stack(z)
+z$a
+names(z)
+list
+len(list)
+length(list)
+list
+z
+length(z)
+names(z) = c("G1", "G2")
+z
+setwd("/Users/huangant/Nextcloud/Papers/doc21_malexp/scripts/func_raw_data")
+dir()
+dataset = "func_ida_0.csv"
+z = read.csv(dataset)
+z
+length(z)
+names(z)
+help(for)
+help(for)
+groups
+groups = length(z)
+z[[1]]
+z
+z[[1]]
+which(z[[1]] == -1)
+which(c(1, 2,3) == -1)
+which(c(1, 2,3) == -1)[1]
+which(c(1, 2,3) == -1)
+which(c(1, 2,3) == -1) == 0
+which(c(1, 2,3) == -1)[0]
+which(c(1, 2,3) == -1)[1]
+which(c(1, 2,3) == -1)[1] == NA
+if(which(c(1, 2,3) == -1)[1] == NA) {}
+if(which(c(1, 2,3) == -1)[1]) {}
+if(which(c(1, 2,3) == -1) == 0) {}
+if(which(c(1, 2,3) == -1) == 0) { break; }
+z = c(1, 2, 3)
+which(z == -1)
+which(z == -1)
+y = which(z == -1)
+y
+y == 0
+y == integer(0)
+if(y == 0) {}
+if(y = 0) {}
+if(y == 0) {}
+y = 0
+if(y == 0) {}
+help(which)
+if(y == 0) {}
+help(which)
+which(z == -1)
+which(z == -1)
+z
+which(z == -1)
+len(which(z == -1))
+length(which(z == -1))
+length(which(z == -1)) == 0
+z = list()
+length(z)
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    for(i in 1:group) {#
+        rdat = z[[i]]#
+        if(length(which(z[[i]] == -1) > 0) {#
+            pos = which(z[[i]])[1]#
+            rdat = z[[i]][1:pos-1]#
+        }#
+        dat[length(dat)+1] = rdat#
+    }
+1:group
+groups
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(z[[i]] == -1) > 0) {#
+            pos = which(z[[i]])[1]#
+            rdat = z[[i]][1:pos-1]#
+        }#
+        dat[length(dat)+1] = rdat#
+    }
+1:groups
+z
+z[[1]]
+i
+for(i = 1:group) { rdat = z[[i]]}
+for(i in 1:group) { rdat = z[[i]]}
+for(i in 1:groups) { rdat = z[[i]]}
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(z[[i]] == -1) > 0) {#
+            pos = which(z[[i]])[1]#
+            rdat = z[[i]][1:pos-1]#
+        }#
+        dat[length(dat)+1] = rdat#
+    }
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(z[[i]] == -1)) > 0) {#
+            pos = which(z[[i]])[1]#
+            rdat = z[[i]][1:pos-1]#
+        }#
+        dat[length(dat)+1] = rdat#
+    }
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+        }#
+        dat[length(dat)+1] = rdat#
+    }
+warnings
+warnings()
+length(dat)
+dat[0]
+dat[1]
+dat[2]
+print(z)
+pritn(1, 2, 43)
+print(1, 2, 3)
+print(c(1, 2, 3))
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[length(dat)+1] = rdat
+}
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat#
+    }
+dat[[1]]
+help(paste)
+paste("G", 0)
+paste("G", 0, sep="")
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;
+dat
+dat$G10
+dat$G0
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    botplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Percentage (%)")
+title = "IDA Pro / Benign"
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    botplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Percentage (%)")
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    boxplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Percentage (%)")
+setwd("/Users/huangant/Nextcloud/Papers/doc21_malexp/scripts/func_raw_data")#
+#
+plot_func = function(dataset, output=FALSE, title="") {#
+    z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    if(output != FALSE) { output, 6, 5, onefile=TRUE) }#
+    boxplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Percentage (%)")#
+    if(output != FALSE) { dev.off() }#
+}
+z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    if(output != FALSE) { pdf(output, 6, 5, onefile=TRUE) }#
+    boxplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Percentage (%)")#
+    if(output != FALSE) { dev.off() }
+plot_func = function(dataset, output=FALSE, title="") {#
+    z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    if(output != FALSE) { pdf(output, 6, 5, onefile=TRUE) }#
+    boxplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Percentage (%)")#
+    if(output != FALSE) { dev.off() }#
+}
+plot("func_ida_0.csv")
+plot_func("func_ida_0.csv")
+plot_func("func_r2_0.csv")
+plot_func("func_r2_1.csv")
+plot_func("func_ida_1.csv")
+plot_func("func_ida_1.csv")
+plot_func = function(dataset, output=FALSE, title="") {#
+    z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat*100#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    if(output != FALSE) { pdf(output, 6, 5, onefile=TRUE) }#
+    boxplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Percentage (%)")#
+    if(output != FALSE) { dev.off() }#
+}#
+#
+# ida benign#
+plot_func("func_ida_0.csv")
+setwd("/Users/huangant/Nextcloud/Papers/doc21_malexp/scripts/func_raw_data")#
+#
+plot_func = function(dataset, output=FALSE, title="") {#
+    z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat*100#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    if(output != FALSE) { pdf(output, 6, 5, onefile=TRUE) }#
+    boxplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Percentage (%)")#
+    if(output != FALSE) { dev.off() }#
+}#
+#
+# ida benign#
+plot_func("func_ida_0.csv", "ben_ida_10_func.pdf")#
+plot_func("func_r2_0.csv",  "ben_r2_10_func.pdf")#
+plot_func("func_ida_1.csv", "mal_ida_36_func.pdf")#
+plot_func("func_r2_1.csv",  "mal_r2_36_func.pdf")
+dev.off()
+plot_func("func_ida_0.csv", "ben_ida_10_func.pdf", "IDA Pro/ Benign")#
+plot_func("func_r2_0.csv",  "ben_r2_10_func.pdf", "Radare2 / Benign")#
+plot_func("func_ida_1.csv", "mal_ida_36_func.pdf", "IDA Pro / Malicious")#
+plot_func("func_r2_1.csv",  "mal_r2_36_func.pdf", "Radare2 / Malicious")
+plot_func("func_ida_0.csv", "ben_ida_10_func.pdf", "IDA Pro / Benign")
+setwd("/Users/huangant/Nextcloud/Papers/doc21_malexp/scripts/time_raw_data")#
+#
+plot_time = function(dataset, output=FALSE, title="") {#
+    z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat / 1000#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    if(output != FALSE) { pdf(output, 6, 5, onefile=TRUE) }#
+    boxplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Time (s)", ylim=20)#
+    if(output != FALSE) { dev.off() }#
+}#
+#
+# ida benign
+setwd("/Users/huangant/Nextcloud/Papers/doc21_malexp/scripts/time_raw_data")#
+#
+plot_time = function(dataset, output=FALSE, title="") {#
+    z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat / 1000#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    if(output != FALSE) { pdf(output, 6, 5, onefile=TRUE) }#
+    boxplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Time (s)", ylim=20)#
+    if(output != FALSE) { dev.off() }#
+}#
+#
+# ida benign#
+plot_time("ida_0.csv", "ben_ida_10_time.pdf", "IDA Pro/ Benign")#
+plot_time("r2_0.csv",  "ben_r2_10_time.pdf", "Radare2 / Benign")#
+plot_time("ida_1.csv", "mal_ida_36_time.pdf", "IDA Pro / Malicious")#
+plot_time("r2_1.csv",  "mal_r2_36_time.pdf", "Radare2 / Malicious")
+setwd("/Users/huangant/Nextcloud/Papers/doc21_malexp/scripts/time_raw_data")#
+#
+plot_time = function(dataset, output=FALSE, title="") {#
+    z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat / 1000#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    if(output != FALSE) { pdf(output, 6, 5, onefile=TRUE) }#
+    boxplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Time (s)", ylim=c(0, 20))#
+    if(output != FALSE) { dev.off() }#
+}#
+#
+# ida benign#
+plot_time("ida_0.csv", "ben_ida_10_time.pdf", "IDA Pro/ Benign")#
+plot_time("r2_0.csv",  "ben_r2_10_time.pdf", "Radare2 / Benign")#
+plot_time("ida_1.csv", "mal_ida_36_time.pdf", "IDA Pro / Malicious")#
+plot_time("r2_1.csv",  "mal_r2_36_time.pdf", "Radare2 / Malicious")
+dev.off()
+dev.off9)
+dev.off()
+dev.off()
+dev.off()
+dev.off()
+setwd("/Users/huangant/Nextcloud/Papers/doc21_malexp/scripts/time_raw_data")#
+#
+plot_time = function(dataset, output=FALSE, title="") {#
+    z = read.csv(dataset)#
+    groups = length(z)#
+    dat = list()#
+    datname = c()#
+    for(i in 1:groups) {#
+        rdat = z[[i]]#
+        if(length(which(rdat == -1)) > 0) {#
+            pos = which(rdat == -1)[1]#
+            rdat = rdat[1:pos-1]#
+            print(c(rdat, i, pos))#
+        }#
+        dat[[length(dat)+1]] = rdat / 1000#
+        datname = c(datname, paste("G", i-1, sep=""))#
+    }#
+    names(dat) = datname;#
+    dat = as.data.frame(stack(dat))#
+    if(output != FALSE) { pdf(output, 6, 5, onefile=TRUE) }#
+    boxplot(values~ind, dat, horieontal=FALSE, las=1,#
+        main=title, xlab="Group", ylab="Time (s)", ylim=c(0, 20))#
+    if(output != FALSE) { dev.off() }#
+}#
+#
+# ida benign#
+plot_time("ida_0.csv", "ben_ida_10_time.pdf", "IDA Pro/ Benign")#
+plot_time("r2_0.csv",  "ben_r2_10_time.pdf", "Radare2 / Benign")#
+plot_time("ida_1.csv", "mal_ida_36_time.pdf", "IDA Pro / Malicious")#
+plot_time("r2_1.csv",  "mal_r2_36_time.pdf", "Radare2 / Malicious")
